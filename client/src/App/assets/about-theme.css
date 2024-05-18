@@ -1,0 +1,76 @@
+body {
+    background-color: var(--background-solid);
+    font-family: var(--font-family, Helvetica);
+    height: 100vh;
+    margin: 0px;
+}
+
+.about-display {
+    background-image: linear-gradient(#9144b7, var(--presentation-dark));
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px 40px;
+    height: calc(100vh - var(--banner-height)*2);
+}
+
+.about-sections {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow-x: hidden;
+    scrollbar-color: #9144b7 var(--background-base);
+    scrollbar-width: thin;
+}
+
+.about-box {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 0px 40px 20px 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-title {
+    color: white;
+    font-size: 30px;
+    padding: 20px 35px;
+}
+
+.about-spotify-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.left-box, .middle-box, .right-box {
+    background-color: var(--background-base);
+    border-radius: 20px;
+    margin: 10px;
+    padding: 30px 50px;
+    row-gap: normal;
+    color: var(--text-white);
+    width: 500px;
+    height: 350px;
+    overflow-x: hidden;
+    scrollbar-color: var(--background-base);
+    scrollbar-width: thin;
+}
+
+.left-thirty-box {
+    display: inherit;
+    width: 250px;
+    height: 250px; 
+}
+
+h2 {
+    padding: 15px 0px 20px 0px;
+    font-size: 35px;
+}
+
+.about-text {
+    padding: 10px 0px;
+}

@@ -1,0 +1,25 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": "airbnb",
+    "parserOptions": {
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+
+    "rules": {
+        // LF | CRLF issue: unix/windows must be changed depending on what lint is expecting
+        "linebreak-style": ["error", "windows"],
+        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
+    },
+    "settings": {
+        "import/resolver": {
+            "node": {
+                "extensions": [".js", ".jsx"],
+                "moduleDirectory": ["node_modules", "src/", "src/App/","src/App/components"]
+            }
+        }
+    }
+}

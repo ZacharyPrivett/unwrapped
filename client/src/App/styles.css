@@ -1,0 +1,37 @@
+.unwrapped-theme {
+    --background-base: #1b171bc5;
+    --background-dark: #1a1919;
+    --background-gradient-bottom: #cfd3ff;
+    --background-gradient-top:#ffcdcd;
+    --background-solid: #222222;
+    --button-active: #9198e5;
+    --button-background: #ffcdcd;
+    --button-hover: #fce9e9;
+    --button-title: #40b1ad;
+    --font-family: sans-serif;
+    --presentation-dark-teal: #18404a;
+    --presentation-dark: #071922; 
+    --presentation-solid: #ffcdcd;
+    --text-dark: #222222;
+    --text-dim: #8f8686;
+    --text-light: #ffe5e5;
+    --text-overshadow: #40b1ad;
+    --text-solid:#f3f5dc;
+    --text-shadow: #e66565;
+    --text-white: #fffdf8;
+    --banner-height: 80px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+#root {
+    min-height: 100vh;
+}
+
+html {
+    height: 100%;
+}

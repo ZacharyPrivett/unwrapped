@@ -1,0 +1,93 @@
+.header {
+    box-sizing: border-box;
+    background-color: var(--background-dark);
+    display: flex;
+    justify-content: space-between;
+    height: var(--banner-height);
+    margin-bottom: 0px;
+    padding: 30px 30px 30px 30px;
+}
+
+.header-title {
+    color: var(--text-white);
+    padding: 0px 20px 0px 20px;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.header-box {
+    display: flex;
+    justify-content: right;
+    max-width: 1000px;
+    width: 100%;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.header-link {
+    align-content: center;
+    padding: 0px 20px 0px 20px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.header-rule {
+    background: var(--text-dim);
+    height: 20px;
+    margin: 0px;
+    width: 1px;
+}
+
+@keyframes on-hover-title{
+    0%   {color: red; text-shadow: 2px 2px red;}
+    25%  {text-shadow: 2px 2px yellow;}
+    50%  {text-shadow: 2px 2px blue;}
+    100% {text-shadow: 2px 2px var(--text-overshadow);}
+}
+
+.a-header-title:link {
+    text-decoration: none;
+    color: var(--text-white);
+    text-shadow: 2px 2px var(--text-overshadow);
+}
+
+.a-header-title:visited {
+    color: var(--text-white);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.a-header-title:hover {
+    color: var(--text-white);
+    animation-name: on-hover-title;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+.a-header-title:active {
+    text-decoration: none;
+    color: var(--text-dim);
+}
+
+.a-header:link {
+    text-decoration: none;
+    color: var(--text-dim);
+}
+
+.a-header:visited {
+    color: var(--text-dim);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.a-header:hover {
+    color: var(--text-white);
+}
+
+.a-header:active {
+    text-decoration: none;
+    color: var(--text-dim);
+}

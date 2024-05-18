@@ -1,0 +1,59 @@
+{
+  "name": "itsc-4155-project",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "new-component": "new-component",
+    "eject": "react-scripts eject",
+    "lint": "eslint.js"
+  },
+  "proxy": "http://localhost:3001/",
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.6.8",
+    "bcrypt": "^5.1.1",
+    "chart.js": "^3.9.1",
+    "new-component": "^4.0.1",
+    "prettier": "^2.7.1",
+    "react": "^18.2.0",
+    "react-chartjs-2": "^4.3.1",
+    "react-dom": "^18.2.0",
+    "react-feather": "^2.0.10",
+    "react-router-dom": "^6.19.0",
+    "react-scripts": "5.0.1",
+    "styled-components": "^6.1.1",
+    "web-vitals": "^2.1.4"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "description": "In order to view the website, first clone or download the source code in the repository. It is easily accessible in the latest release.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-jsx-a11y": "^6.8.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
